@@ -95,6 +95,7 @@ Begin
   minB:=poleB[1,1];
   maxA:=poleA[1,1];
   maxB:=poleB[1,1];
+  for i:=1 to 8 do pozice[i]:=1;
   for i:= 1 to n do
   for j:=1 to n do
   begin
