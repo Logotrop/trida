@@ -1,4 +1,4 @@
-program Adam;
+program Filip-rocnikovka;
 uses Crt;
 var text:string;
   	a:array['A'..'Z'] of integer;
