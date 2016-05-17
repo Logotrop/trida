@@ -19,7 +19,6 @@ begin
         if text[i]=' ' then o:=o+1;
   end;
   writeln(' V textu se vyskytuje ',v,' velkych pismen a ',m,' malych pismen ');
-  writeln(' Pocet malych a velkych pismen se lisi o: ',abs(v-m));
   writeln(' Pocet specialnich znaku je: ', length(text)-v-m-o);
   writeln;
 
@@ -46,7 +45,7 @@ begin
           end
         end;
   end;
-  writeln(' V textu se objevuje ',d,' prime reci');
+  writeln(' V textu je ',d,' vet tazacich');
   repeat until keypressed;
 
 end.
